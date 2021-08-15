@@ -44,3 +44,30 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  outline: none;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+.btn--rounded {
+  border-radius: 5rem;
+}
+
+.btn--icon i {
+  margin-left: 1rem;
+  color: inherit;
+}
